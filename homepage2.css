@@ -1,0 +1,145 @@
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.topnav{
+    overflow: hidden;
+    background-color:#0099ff;
+}
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 11px 11px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.topnav a:hover{
+    background-color: #f2f2f2;
+    color: #0099ff;
+    }
+    .topnav a.active{
+        background-color: #006bb3;
+        color:#006bb3;
+    }
+    .topnav .search-container{
+        float: right;
+    }
+    .topnav input[type=text]{
+        padding: 12px 15px;
+        border:none;
+        /* margin-top:12px ; */
+        background-color: #006bb3;
+        font-size: 17px;
+    }
+     ::placeholder{
+        color: #f2f2f2;
+    }
+    .topnav .search-container button{
+        float: right;
+        padding: 16px 19px;
+        margin-top: 10px;
+        margin-right: 20px;
+        background: #006bb3;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+    }
+    .topnav .search-container button:hover{
+        background: b;
+
+    }
+    @media screen and (max-width: 600px) {
+        .topnav .search-container{
+            float: none;
+        }
+        .topnav a, .topnav input[type=text], .topnav .search-container button{
+            float: none;
+            display: block;
+            text-align: left;
+            width: 100%;
+            margin: 0;
+            padding: 20px; 
+        }
+        .topnav input[type=text]{
+            border: 2px solid #ccc;
+        }
+
+    }
+    * {box-sizing: border-box}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+
+.tablink {
+  background-color: white;
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #0099ff;
+}
+
+tabcontent {
+  color:#006bb3;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: red;}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;}
+#About {background-color: orange;}
+#About {background-color: orange;}
+#About {background-color: orange;}
+#About {background-color: orange;}
+
+.span4 img{
+    padding: 1%;
+    width: 35%;
+    height: auto;
+}
+.span4 img-left{
+    float: left;
+
+}
+.shadow p-3 mb-5 bg-white rounded {
+    position: absolute;
+    display: -ms-flexbox;
+    display: grid;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+/* .preloader {
+    align-items: center;
+    background: rgb(23, 22, 22);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    transition: opacity 0.3s linear;
+    width: 100%;
+    z-index: 9999; */
+  /* } */
